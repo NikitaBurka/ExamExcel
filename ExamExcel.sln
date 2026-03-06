@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36915.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamExcel", "ExamExcel\ExamExcel.csproj", "{A5C62878-2DE8-4BAD-9421-AEFC51F56146}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "ExamExcel\Server.csproj", "{A5C62878-2DE8-4BAD-9421-AEFC51F56146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{B035C804-722D-4989-9952-03B017D8A49A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A5C62878-2DE8-4BAD-9421-AEFC51F56146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5C62878-2DE8-4BAD-9421-AEFC51F56146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5C62878-2DE8-4BAD-9421-AEFC51F56146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B035C804-722D-4989-9952-03B017D8A49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B035C804-722D-4989-9952-03B017D8A49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B035C804-722D-4989-9952-03B017D8A49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B035C804-722D-4989-9952-03B017D8A49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
